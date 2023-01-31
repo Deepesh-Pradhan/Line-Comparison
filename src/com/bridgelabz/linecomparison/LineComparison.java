@@ -19,6 +19,6 @@ public class LineComparison {
         int y2 = sc.nextInt();
 
         double lineLengthXY = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
-        System.out.println("Length of the line XY is => " + lineLengthXY);
+        System.out.println(" Length of the line XY is => " + lineLengthXY);
     }
 }
