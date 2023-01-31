@@ -33,10 +33,16 @@ public class LineComparison {
 
         double lineLengthAB = Math.sqrt((a2 - a1) * (a2 - a1) + (b2 - b1) * (b2 - b1));
 
-        if (lineLengthXY == lineLengthAB)
-            System.out.println("Both lines are equal");
-        else
-            System.out.println("Both lines are not equal");
+        if (lineLengthXY == lineLengthAB) {
+            System.out.println("Both line are equal");
+
+        } else if (lineLengthXY > lineLengthAB) {
+            System.out.println("First Line is greater than Second Line");
+
+        } else {
+            System.out.println("Second Line is greater than First line");
+        }
     }
 }
+
 
